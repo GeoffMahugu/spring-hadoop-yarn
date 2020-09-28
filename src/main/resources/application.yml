@@ -7,7 +7,7 @@ spring:
     applicationDir: /app/yarn-demo/
     fsUri: hdfs://localhost:9000
     rmAddress: localhost:8032
-    schedulerAddress: localhost:9870
+    schedulerAddress: localhost:8032
     client:
       startup:
         action: submit
