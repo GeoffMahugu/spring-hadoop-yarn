@@ -6,7 +6,7 @@ spring:
     appName: yarn-demo
     applicationDir: /app/yarn-demo/
     fsUri: hdfs://localhost:9000
-#    rmAddress: 192.168.1.119:32458
+    rmAddress: localhost:8032
     schedulerAddress: localhost:9870
     client:
       startup:
