@@ -1,13 +1,13 @@
 spring:
   hadoop:
-    fsUri: hdfs://192.168.1.119:32457
-    resourceManagerHost: 192.168.1.119:32457
+    fsUri: hdfs://localhost:9000
+    resourceManagerHost: localhost
   yarn:
     appName: yarn-demo
     applicationDir: /app/yarn-demo/
-    fsUri: hdfs://192.168.1.119:32457
-    rmAddress: 192.168.1.119:32458
-    schedulerAddress: 192.168.1.119:50070
+    fsUri: hdfs://localhost:9000
+#    rmAddress: 192.168.1.119:32458
+    schedulerAddress: localhost:9870
     client:
       startup:
         action: submit
